@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use SCSS for stylesheets
@@ -47,6 +47,7 @@ end
 
 
 group :production do
+  ruby '2.1.3'
   gem 'pg'
   gem "activerecord-postgresql-adapter"
 end

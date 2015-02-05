@@ -26,4 +26,3 @@ production:
   username: ojwycopwefcaia
   password: rD0grtqIsz3WkvE5-F11nqytbI
   host: ec2-54-225-182-133.compute-1.amazonaws.com
-  port:5432
